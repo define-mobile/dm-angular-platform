@@ -16,7 +16,7 @@ import { ControlWidget } from '@delon/form';
     preserveWhitespaces: false,
     styles: [ `:host ueditor { line-height:normal; }` ]
 })
-export class UeditorWidget extends ControlWidget implements OnInit {
+export class UeditorWidgetComponent extends ControlWidget implements OnInit {
 
     static readonly KEY = 'ueditor';
 

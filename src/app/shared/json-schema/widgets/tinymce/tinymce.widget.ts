@@ -15,7 +15,7 @@ import { ControlWidget } from '@delon/form';
     `,
     preserveWhitespaces: false
 })
-export class TinymceWidget extends ControlWidget implements OnInit {
+export class TinymceWidgetComponent extends ControlWidget implements OnInit {
 
     static readonly KEY = 'tinymce';
 
